@@ -1,11 +1,12 @@
-from flask import Flask
+from flask import Flask, render_template, redirect, url_for, flash, abort
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
 
 
 @app.route("/")
 def home():
-    return "Hello, World!"
+    return render_template("index.html")
 
 
 if __name__ == "__main__":

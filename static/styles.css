@@ -1,0 +1,31 @@
+/*Navbar section*/
+
+.logo {
+    font-family: 'Pushster', cursive;
+    font-size: 32px;
+    color: #4E9F3D
+}
+
+nav .navbar-nav li a{
+  color: #4E9F3D !important;
+  }
+
+navbar-toggler-icon {
+    color: #4E9F3D !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(78,159,61, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border-color: rgb(78,159,61);
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(78,159,61);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    border-color: rgb(78,159,61);
+    color: rgb(78,159,61);
+}
