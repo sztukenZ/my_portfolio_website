@@ -17,7 +17,8 @@
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+  font-family: 'Cinzel', Arial, serif;
+
 }
 
 
@@ -428,7 +429,12 @@ a:focus, a:active {
 }
 
 .section-gray {
-  background-color: #EEEEEE;
+  background-color: #263535;
+  color: white;
+}
+
+.section-gray h4{
+    color: white;
 }
 
 .section-white {
@@ -746,6 +752,7 @@ a:focus, a:active {
   color: white;
   font-family: 'Cinzel', serif;
   font-weight: 900;
+  text-shadow: 2px 2px #191A19;
 }
 
 .landing-page .description i {
@@ -1075,6 +1082,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   font-weight: 900;
   font-size: 50px;
   font-family: 'Pushster';
+  text-shadow: 2px 2px #191a19;
 }
 
 .landing-page .parallax .description h5 {
@@ -1120,6 +1128,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
    .landing-page .logos li{
     display: inline-block;
     margin: 0 17px;
+   }
+
+   .landing-page .logos img{
+    width: 100px;
+    height: 100px;
+    filter: brightness(0) invert(1);
    }
 
    .landing-page .section-presentation {
@@ -1688,21 +1702,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     background: rgba(25, 26, 25, 0.75);
   }
   .landing-page .parallax {
-    height: 550px;
+    height: 400px;
   }
   .landing-page .parallax .parallax-background img {
     width: auto;
     height: 100%;
   }
   .landing-page .parallax .description{
-    margin-top: 65px;  }
+    margin-top: 120px;  }
   .landing-page .parallax .buttons{
     margin: 20px 0;
   }
+
+  .landing-page .description a {
+    font-size: 140%;
+  }
+
   .landing-page .logos li{
-    display: block;
+    display: inline;
     margin-top: 10px;
   }
+
+    .landing-page .logos img{
+    display: inline;
+    width: 6.5%;
+    height: 6.5%;
+  }
+
   .landing-page .logos ul{
     padding-top: 20px;
   }
@@ -1727,6 +1753,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     .landing-page .navbar-top{
         padding-top: 10px;
     }
+
 }
 
 .moja1 {
