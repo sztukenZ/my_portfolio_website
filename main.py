@@ -4,6 +4,7 @@ from wtforms import StringField, validators, PasswordField, SubmitField, TextAre
 from wtforms.validators import DataRequired, Email
 from flask_bootstrap import Bootstrap
 import email_validator
+from datetime import datetime
 
 app = Flask(__name__)
 Bootstrap(app)
@@ -22,7 +23,7 @@ def home():
     cform = ContactForm()
     if cform.validate_on_submit():
         print(f"Name:{cform.name.data}, E-mail:{cform.email.data}, message:{cform.message.data}")
-    return render_template("index.html", form=cform)
+    return render_template("index.html", form=cform, now=datetime.utcnow())
 
 
 if __name__ == "__main__":
