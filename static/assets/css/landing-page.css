@@ -69,6 +69,7 @@ p {
 /*     General overwrite     */
 body {
   font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+  background-color: #294f4f;
 }
 
 a {
@@ -555,7 +556,7 @@ a:focus, a:active {
 }
 
 .footer {
-  background-color: white;
+  background-color: #263535;
   line-height: 20px;
 }
 .footer nav > ul {
@@ -910,7 +911,7 @@ a:focus, a:active {
  .header-text{
       text-transform: uppercase;
       font-weight: 200;
-      color: #333;
+      color: white;
       margin-bottom: 20px;
       font-size: 30px;
       position: relative;
@@ -1019,6 +1020,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 .section-no-padding{
   padding-bottom: 0;
+  background-color: #263535;
 }
 
 .landing-page .footer{
@@ -1225,6 +1227,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
    .landing-page .section-features{
         margin: 50px 0;
+        background-color: #294f4f;
    }
 
    .landing-page .section-features .card{
@@ -1758,4 +1761,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .moja1 {
     margin-left: 2% !important;
+}
+
+.landing-page .section-features .card p, h4 {
+    color: white;
 }
