@@ -1766,3 +1766,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 .landing-page .section-features .card p, h4 {
     color: white;
 }
+
+#submit {
+    background-color: white;
+    opacity: 1;
+    color: #888888;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 14px 80px;
+    font-weight: 400;
+    border-color: white;
+    border-width: 2px
+    margin-top: 14px;
+}
+
+.info {
+    top: 70px !important;
+}
+
+.control-label {
+    font-family: 'Cinzel', Arial, serif;
+}
