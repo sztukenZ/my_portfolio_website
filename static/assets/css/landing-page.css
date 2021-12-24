@@ -1861,3 +1861,11 @@ a:hover {
 .tooltip.right .tooltip-arrow {
     border-right-color: white;
 }
+
+.description h3 {
+    text-shadow: 2px 2px #191a19;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px #191a19;
+}
