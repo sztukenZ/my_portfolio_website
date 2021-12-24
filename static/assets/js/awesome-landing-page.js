@@ -133,18 +133,5 @@
             that.tooltip('show');
             setTimeout(function(){
                that.tooltip('hide');
-                }, 1000000);
+                }, 1000);
         });
-
-        function myFunction(x) {
-            var e = document.getElementById('share');
-            if (x.matches) { // If media query matches
-                e.setAttribute("data-placement", "bottom")
-            } else {
-                e.setAttribute("data-placement", "right")
-            }
-           }
-
-        var x = window.matchMedia("(max-width: 768px)")
-        myFunction(x) // Call listener function at run time
-        x.addListener(myFunction) // Attach listener function on state changes
