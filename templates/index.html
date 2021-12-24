@@ -7,13 +7,15 @@
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>Krzysztof Sztuk</title>
+        <title>Krzysztof Sztuk - Python programmer</title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
         <meta name="viewport" content="width=device-width" />
 
 
         <link href="{{ url_for('static', filename='assets/css/bootstrap.css')}}" rel="stylesheet" />
         <link href="{{ url_for('static', filename='assets/css/landing-page.css')}}" rel="stylesheet"/>
+
+        <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
 
         <!--     Fonts and icons     -->
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -70,7 +72,7 @@
 <!--                            </a>-->
 <!--                        </li>-->
                         <li>
-                            <a href="#">
+                            <a id="share" class="bstooltip" data-toggle="tooltip" title="Link copied!" data-placement='right' data-trigger='manual'>
                             <i class="fa fa-share-square fa-fw"></i>
                             Share
                             </a>

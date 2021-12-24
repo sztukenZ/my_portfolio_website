@@ -1596,6 +1596,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         display: none;
     }
 
+
 }
 
 @media (min-width: 768px){
@@ -1841,4 +1842,17 @@ textarea {
     font-size: 50px;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+a:hover {
+ cursor:pointer;
+}
+
+.tooltip-inner {
+    background-color: white;
+    color: #294f4f;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: white;
 }
