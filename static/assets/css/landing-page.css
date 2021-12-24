@@ -814,10 +814,10 @@ a:focus, a:active {
   background-color: #888888;
 }
 .landing-page .carousel-indicators.carousel-indicators-blue li {
-  border-color: #00bbff;
+  border-color: #263535;
 }
 .landing-page .carousel-indicators.carousel-indicators-blue .active {
-  background-color: #00bbff;
+  background-color: #263535;
 }
 .landing-page .carousel-indicators.carousel-indicators-green li {
   border-color: #3ABE41;
@@ -1256,7 +1256,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
       border-color: #CCE7F5;
     }
     .landing-page .section-features .card.card-blue .icon i{
-      color:#00bbff;
+      color:#263535;
     }
     .landing-page .section-features .card.card-green{
       border-color: #BDF8C0;
@@ -1293,16 +1293,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
      position: relative;
     width: 100%;
     min-height: 450px;
+    font-family: 'Pushster', cursive;
+    color: white;
+    background-color: #294F4F;
+    padding-bottom: 90px;
+
+
   }
   .landing-page .section-testimonial .carousel{
     margin-top: 50px;
     
   }
     .landing-page .section-testimonial .carousel-inner .item .mask{
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      border: 5px solid #ddd;
+      max-width: 100%;
+      max-height: 400px;
+      box-shadow: 2px 2px #294F4F;
+      border: 1px solid white;
       overflow: hidden;
       display: block;
       margin: 0 auto;
@@ -1395,7 +1401,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     color: #FFFFFF;
 }
 .fixed-plugin .active .fa-circle-thin{
-    color: #00bbff;
+    color: #263535;
 }
 
 .footer-dropdown{
@@ -1415,7 +1421,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .fixed-plugin .active a, 
 .fixed-plugin a:hover{
-    border-color: #00bbff;
+    border-color: #263535;
 }
 
 .fixed-plugin .btn{
@@ -1436,7 +1442,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     width: 23px;
 }
 .fixed-plugin .badge.active, .fixed-plugin .badge:hover{
-    border-color: #00bbff;
+    border-color: #263535;
 }
 .fixed-plugin .badge-white{
     background-color: #eeeeee;
@@ -1527,7 +1533,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 .fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger), 
 .fixed-plugin .dropdown-menu > .active > a:not(.switch-trigger){
-    border-color: #00bbff;
+    border-color: #263535;
     background-color: #FFFFFF;
 }
 
@@ -1824,4 +1830,15 @@ textarea {
     text-shadow: 2px 2px #294f4f;
     margin-top: 0px;
 
+}
+
+.landing-page .section-testimonial .carousel-inner p {
+    color:white;
+}
+
+.landing-page .section-testimonial .carousel-inner h3 {
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
