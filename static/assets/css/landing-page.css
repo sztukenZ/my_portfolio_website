@@ -1687,6 +1687,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 @media (max-width: 767px){
+
   .fixed-plugin{
     position: absolute;
   }
@@ -1726,8 +1727,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 
   .landing-page .description a {
-    font-size: 140%;
+    font-size: 100%;
   }
+
+  .landing-page .parallax .description h2{
+    font-size: 42px;  }
 
   .landing-page .logos li{
     display: inline;
@@ -1761,6 +1765,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
   .navbar-collapse {
     padding-bottom: 20px;
+  }
+
+  .navbar-toggle {
+    margin-right: 10px;
+    margin-top: 12px;
   }
 
 }

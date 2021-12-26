@@ -47,3 +47,5 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# TODO: na iphonie rozjeżdża się email, wiadomość flash i ikonki ze skillsów. Hamburger menu nie działa na Androidzie
