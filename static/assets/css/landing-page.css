@@ -1772,6 +1772,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     margin-top: 12px;
   }
 
+   .landing-page .logos li {
+    margin: 12px;
+   }
+
 }
 
 @media (min-width: 768px){
